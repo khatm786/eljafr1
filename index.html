@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div id = "container">
+    
+
+    <header>
+        <div>
+        
+        </div>
+    </header>
+
+    <aside>
+        <form>
+    
+            <textarea dir="rtl" placeholder ="ضع نص الرسالة هنا" class ="textarea1" id="text" onkeypress="countWord() ,countWords()"  style="height: 204px; width: 485px;"></textarea>
+          
+        </form> 
+<div class = "h_class">
+
+    <h1 class="eljafr"> حساب الجمل الكبير :  </h1>
+    <h1 class="eljafr">   الأبجدية المغربية </h1>
+</div>
+       
+
+        <table class ="best">
+
+
+            <tr >
+                
+                <td  id="best6" class ="best6"></td>
+                <th  class ="best5">عدد حروف النص</th>
+           
+    
+    
+            </tr>
+
+            <tr >
+               
+                <td id ="best4"></td>
+                <th class ="best2">عدد كلمات هذا النص </th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="best3" class ="best3"></td>
+                <th  class ="best1">القيمة العددية لهذا النص</th>
+           
+    
+    
+            </tr>
+            
+        </table>
+      
+
+       
+      
+        <div >
+     
+</div>
+    </aside>
+
+
+    <main>
+       
+
+    <table>
+        <tr >
+            <th>الحرف</th>
+            <th> قيمة الحرف</th>
+            <th> مضروب</th>
+            <th>عدد الحروف من الجملة</th>
+            <th>  القيمة في عدد الحروف</th>
+
+
+        </tr>
+        <tr>
+            <td>أ</td>
+            <td>1</td>
+            <td class = "x">*</td>
+            <td id="alif"></td>
+            <td id="alif1"></td>
+        </tr>
+
+
+        <tr>
+            <td>ب</td>
+            <td>2</td>
+            <td class = "x">*</td>
+            <td id="baa"></td>
+            <td id="baa2"></td>
+        </tr>
+
+
+        <tr>
+            <td>ج</td>
+            <td>3</td>
+            <td class = "x">*</td>
+            <td id="jim"></td>
+            <td id="jim3"></td>
+        </tr>
+
+
+        <tr>
+            <td>د</td>
+            <td>4</td>
+            <td class = "x">*</td>
+            <td id="dal"></td>
+            <td id="dal4"></td>
+        </tr>
+
+
+        <tr>
+            <td>ه</td>
+            <td>5</td>
+            <td class = "x">*</td>
+            <td id="haae"></td>
+            <td id="haae5"></td>
+        </tr>
+
+        <tr>
+            <td>و</td>
+            <td>6</td>
+            <td class = "x">*</td>
+            <td id="ouaou"></td>
+            <td id="ouaou6"></td>
+        </tr>
+
+
+        <tr>
+            <td>ز</td>
+            <td>7</td>
+            <td class = "x">*</td>
+            <td id="zay"></td>
+            <td id="zay7"></td>
+        </tr>
+
+        <tr>
+            <td>ح</td>
+            <td>8</td>
+            <td class = "x">*</td>
+            <td id="haa"></td>
+            <td id="haa8"></td>
+        </tr>
+
+
+        <tr>
+            <td>ط</td>
+            <td>9</td>
+            <td class = "x">*</td>
+            <td id="ttae"></td>
+            <td id="ttae9"></td>
+        </tr>
+
+        <tr>
+            <td>ي</td>
+            <td>10</td>
+            <td class = "x">*</td>
+            <td id="yaa"></td>
+            <td id="yaa10"></td>
+        </tr>
+
+
+        <tr>
+            <td>ك</td>
+            <td>20</td>
+            <td class = "x">*</td>
+            <td id="kaf"></td>
+            <td id="kaf11"></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>ل</td>
+            <td>30</td>
+            <td class = "x">*</td>
+            <td id="laa"></td>
+            <td id="laa12"></td>
+        </tr>
+
+        <tr>
+            <td>م</td>
+            <td>40</td>
+            <td class = "x">*</td>
+            <td id="mim"></td>
+            <td id="mim13"></td>
+        </tr>
+
+
+        <tr>
+            <td>ن</td>
+            <td>50</td>
+            <td class = "x">*</td>
+            <td id="noon"></td>
+            <td id="noon14"></td>
+        </tr>
+
+
+
+        <tr>
+            <td>ص</td>
+            <td>60</td>
+            <td class = "x">*</td>
+            <td id="saad"></td>
+            <td id="saad18"></td>
+        </tr>
+
+        <tr>
+            <td>ع</td>
+            <td>70</td>
+            <td class = "x">*</td>
+            <td id="ine"></td>
+            <td id="ine16"></td>
+        </tr>
+
+
+        <tr>
+            <td>ف</td>
+            <td>80</td>
+            <td class = "x">*</td>
+            <td id="faa"></td>
+            <td id="faa17"></td>
+        </tr>
+
+
+        <tr>
+            <td>ض</td>
+            <td>90</td>
+            <td class = "x">*</td>
+            <td id="daa"></td>
+            <td id="daa26"></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>ق</td>
+            <td>100</td>
+            <td class = "x">*</td>
+            <td id="ppaf"></td>
+            <td id="ppaf19"></td>
+        </tr>
+
+
+
+        <tr>
+            <td>ر</td>
+            <td>200</td>
+            <td class = "x">*</td>
+            <td id="raa"></td>
+            <td id="raa20"></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>س</td>
+            <td>300</td>
+            <td class = "x">*</td>
+            <td id="sin"></td>
+            <td id="sin15"></td>
+        </tr>
+
+       
+
+
+
+
+
+  
+
+        <tr>
+            <td>ت</td>
+            <td>400</td>
+            <td class = "x">*</td>
+            <td id="taa"></td>
+            <td id="taa22"></td>
+        </tr>
+
+
+
+        <tr>
+            <td>ث</td>
+            <td>500</td>
+            <td class = "x">*</td>
+            <td id="ttta"></td>
+            <td id="ttta23"></td>
+        </tr>
+
+
+        <tr>
+            <td>خ</td>
+            <td>600</td>
+            <td class = "x">*</td>
+            <td id="kha"></td>
+            <td id="kha24"></td>
+        </tr>
+
+
+
+        <tr>
+            <td>ذ</td>
+            <td>700</td>
+            <td class = "x">*</td>
+            <td id="ddal"></td>
+            <td id="ddal25"></td>
+        </tr>
+
+
+        <tr>
+            <td>ظ</td>
+            <td>800</td>
+            <td class = "x">*</td>
+            <td id="ddda"></td>
+            <td id="ddda27"></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>غ</td>
+            <td>900</td>
+            <td class = "x">*</td>
+            <td id="gaa"></td>
+            <td id="gaa28"></td>
+        </tr>
+
+
+        <tr>
+            <td>ش</td>
+            <td>1000</td>
+            <td class = "x">*</td>
+            <td id="chine"></td>
+            <td id="chine21"></td>
+        </tr>
+
+ 
+
+
+ 
+    </main>
+ 
+ 
+
+   
+</div>
+
+
+
+    <script src="app.js"></script>
+    
+
+</body>
+</html>
