@@ -59,40 +59,38 @@ function countWord() {
    
    
    
-   
-   let alif = ['ا','أ','إ','ى','آ'];
-   let baa = ['ب'];
-   let jim = ['ج'];
-   let dal = ['د'];
-   let haae = ['ه' , 'ة'];
-   let ouaou = ['و'];
-   let zay = ['ز'];
-   let haa = ['ح'];
-   let ttae = ['ط'];
-   let yaa = ['ي'];
-   let kaf = ['ك']; 
-   let laa = ['ل'];
-   let mim = ['م'];
-   let noon = ['ن'];
-   let sin = ['س'];
 
-   let ine = ['ع'];
-   let faa = ['ف'];
-   let saad = ['ص'];
-   let ppaf = ['ق'];
+let alif = ['ا','أ','إ','آ'];
 
-   let raa = ['ر'];
-   let chine = ['ش'];
+let laa = ['ل'];
+let haa = ['ح'];
+let mim = ['م'];
+let dal = ['د'];
+let haae = ['ه' ,'ة'];
+let raa = ['ر'];
+let baa = ['ب'];
+let ine = ['ع'];
+let yaa = ['ي','ى','ئ'];
+ let noon = ['ن'];
+let kaf = ['ك'];
+let ouaou = ['و','ؤ'];
+let sin = ['س'];
+let taa = ['ت'];
+let saad = ['ص'];
+let ttae = ['ط'];
+let ppaf = ['ق'];
+let ddal = ['ذ'];
+let gaa = ['غ'];
+let daa = ['ض'];
+let faa = ['ف'];
+let zay = ['ز'];
+let kha = ['خ'];
+let chine = ['ش'];
+let ddda = ['ظ'];
+let jim = ['ج'];
+let ttta = ['ث'];
 
-   let taa = ['ت'];
-   let ttta = ['ث'];
-   let kha = ['خ'];
 
-   let ddal = ['ذ'];
-
-   let daa = ['ض'];
-   let ddda = ['ظ'];
-   let gaa = ['غ'];
 
    
    
